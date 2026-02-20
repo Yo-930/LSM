@@ -1,8 +1,8 @@
 import express from 'express';
-import { upload } from '../middleware/multer.js';
-import { createCourse,getPublishedCourses,getCreatorCourses,editCourse,getCourseById } from '../controllers/courseController';
-import { isAuthenticated } from '../middleware/authMiddleware';
-import { createLecture,getCourseLecture,editLecture,removeLecture } from '../controllers/courseController';
+import  upload  from '../middleware/multer.js';
+import { createCourse,getPublishedCourses,getCreatorCourses,editCourse,getCourseById ,createLecture,getCourseLecture,editLecture,removeLecture  } from '../controllers/courseController.js';
+import { isAuthenticated } from '../middleware/authMiddleware.js';
+
 
 const courseRouter = express.Router();
 
