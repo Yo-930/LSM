@@ -1,6 +1,8 @@
-import { defineConfig } from "hardhat/config";
-import hardhatToolboxMochaEthers from "@nomicfoundation/hardhat-toolbox-mocha-ethers";
+import { HardhatUserConfig } from "hardhat/config";
+import "@nomicfoundation/hardhat-toolbox";
 
-export default defineConfig({
+const config: HardhatUserConfig = {
   solidity: "0.8.20",
-});
+};
+
+export default config;

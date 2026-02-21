@@ -18,3 +18,5 @@ const lectureSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 const LectureModel = mongoose.model('Lecture', lectureSchema);
+
+export default LectureModel;
